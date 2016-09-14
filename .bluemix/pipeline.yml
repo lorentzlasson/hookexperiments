@@ -11,4 +11,5 @@ stages:
     type: deployer
     script: |
       #!/bin/bash
+      echo custom!
       cf push "${CF_APP}"
